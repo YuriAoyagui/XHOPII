@@ -93,6 +93,11 @@ p:nth-of-type(3){
     font-weight: bold;
 }
 
+.btn-login a{
+    text-decoration: none;
+    color: white;
+}
+
 main {
     display: flex;
     justify-content: center;

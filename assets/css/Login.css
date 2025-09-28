@@ -82,6 +82,11 @@ p:nth-of-type(3){
     border: 1px solid black;
 }
 
+.btn-login a{
+    text-decoration: none;
+    color: white;
+}
+
 .login-options {
     margin-top: 20px;
     display: flex;
