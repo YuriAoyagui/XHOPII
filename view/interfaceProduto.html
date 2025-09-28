@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisualizarProduto</title>
+    <link rel="stylesheet" href="../assets/css/interfaceProduto.css">
+</head>
+<body>
+<header class="barra_nav">
+    
+    <section class="barra_nav_01">
+        <img src="../assets/img/logo.png" alt="">
+        <h1>Xhopii</h1>
+    </section>
+</header>
+
+<nav class="barra_nav_02">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Cadastro Cliente</a></li>
+        <li><a href="#">Cadastro Funcionário</a></li>
+        <li><a href="#">Cadastro Produto</a></li>
+        <li><a href="#">Ver Clientes</a></li>
+        <li><a href="#">Ver Funcionários</a></li>
+        <li><a href="#">Ver Produtos</a></li>
+    </ul>
+</nav>
+
+
+<section class="p01">
+
+    <section class="produto_imgs">
+        <ul>
+            <li><img src="../assets/img/produto1.png" alt="#" onclick="selecionarImgProduto(this)"></li> 
+            <li><img src="../assets/img/produto2.png" alt="#" onclick="selecionarImgProduto(this)"></li>
+            <li><img src="../assets/img/produto3.png" alt="#" onclick="selecionarImgProduto(this)"></li>
+            <li><img src="../assets/img/produto4.png" alt="#" onclick="selecionarImgProduto(this)"></li>
+            <li><img src="../assets/img/produto5.png" alt="#" onclick="selecionarImgProduto(this)"></li>
+        </ul>
+        
+    </section>
+
+    <section class="prod">
+        <ul >
+            <li><img id="imagemPrincipal" src="../assets/img/produto1.png" alt=""></li>
+        </ul>
+    </section>
+
+    <section class="conteudo">
+
+        <h2>Camisa desenvolvedor Front-End CSS</h2>
+        
+        <h3>R$56,90</h3>
+        
+        <p>171 peças disponíveis</p>
+        
+        <p>Modelos: </p>
+        
+        <section>
+            <ul class="s_01">
+                <li><a href="#">Preto</a></li>
+                <li><a href="#">Azul</a></li>
+                <li><a href="#">Verde</a></li>
+                <li><a href="#">Cinza</a></li>
+                <li><a href="#">Rosa</a></li>
+            </ul>
+        </section>
+        
+        <p>Tamanhos: </p>
+        
+        <section>
+            <ul class="s_02">
+                <li><a href="#">P</a></li>
+                <li><a href="#">M</a></li>
+                <li><a href="#">G</a></li>
+                <li><a href="#">GG</a></li>
+            </ul>
+        </section>
+        
+        <p>Tamanho Selecionado: P</p>
+        
+        <section class="s_03">
+            <a href="#">Comprar Agora</a>
+        </section>
+    </section>
+    <script src="../assets/js/script.js"></script>
+
+</section>
+
+</body>
+</html>
