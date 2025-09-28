@@ -6,7 +6,7 @@ body {
 .barra_nav {
     width: 100%;
     height: 120px;
-    background-color: rgb(231, 107, 30);
+    background-color: rgb(255 99 71);
 
 }
 
@@ -32,6 +32,16 @@ body {
     font-size: 60px;
 }
 
+.barra_nav_01 h2 {
+    font-size: 20px;
+    margin-left: 80%;
+}
+
+.barra_nav_01 a{
+    text-decoration: none; 
+    color: white;
+}
+
 .barra_nav_02 {
     width: 100%;
     background-color: lightgrey; 
@@ -48,6 +58,7 @@ body {
 
 .barra_nav_02 li {
    list-style: none;
+   padding-left: 20px;
   
 }
 
@@ -56,7 +67,7 @@ body {
     text-align: center;
     padding: 15px;
     text-decoration: none;
-    color:  rgb(231, 107, 30);
+    color:  rgb(255 99 71);
     font-size: 25px;
 }
 
@@ -154,7 +165,7 @@ body {
     margin: 0;
     padding: 7px;
     font-size: 35px;
-    color:  rgb(231, 107, 30);
+    color:  rgb(255 99 71);
 }
 
 .conteudo p {
@@ -221,6 +232,6 @@ body {
     border: 0.2px solid;
     border-color: white;
     padding: 15px;
-    background-color: rgb(231, 107, 30);
+    background-color: rgb(255 99 71);
     text-decoration: none;
 }
