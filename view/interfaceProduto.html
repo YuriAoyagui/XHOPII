@@ -51,19 +51,19 @@
 
         <h2>Camisa desenvolvedor Front-End CSS</h2>
         
-        <h3>R$56,90</h3>
+        <h3 id="precoProduto">R$56,90</h3>
         
-        <p>171 peças disponíveis</p>
+        <p id="qtdDisponivel">171 peças disponíveis</p>
         
         <p>Modelos: </p>
         
         <section>
             <ul class="s_01">
-                <li><a href="#">Preto</a></li>
-                <li><a href="#">Azul</a></li>
-                <li><a href="#">Verde</a></li>
-                <li><a href="#">Cinza</a></li>
-                <li><a href="#">Rosa</a></li>
+                <li><a href="#" id="btnModeloPreto" onclick="mudarPreco(this)">Preto</a></li>
+                <li><a href="#" id="btnModeloAzul" onclick="mudarPreco(this)">Azul</a></li>
+                <li><a href="#" id="btnModeloVerde" onclick="mudarPreco(this)">Verde</a></li>
+                <li><a href="#" id="btnModeloCinza" onclick="mudarPreco(this)">Cinza</a></li>
+                <li><a href="#" id="btnModeloRosa" onclick="mudarPreco(this)">Rosa</a></li>
             </ul>
         </section>
         
@@ -71,14 +71,14 @@
         
         <section>
             <ul class="s_02">
-                <li><a href="#">P</a></li>
-                <li><a href="#">M</a></li>
-                <li><a href="#">G</a></li>
-                <li><a href="#">GG</a></li>
+                <li><a href="#" id="btnTamanhoP" onclick="mudarTamanho(this)">P</a></li>
+                <li><a href="#" id="btnTamanhoM" onclick="mudarTamanho(this)">M</a></li>
+                <li><a href="#" id="btnTamanhoG" onclick="mudarTamanho(this)">G</a></li>
+                <li><a href="#" id="btnTamanhoGG" onclick="mudarTamanho(this)">GG</a></li>
             </ul>
         </section>
         
-        <p>Tamanho Selecionado: P</p>
+        <p id="tamanhoSelecionado">Tamanho Selecionado: P</p>
         
         <section class="s_03">
             <a href="#">Comprar Agora</a>
